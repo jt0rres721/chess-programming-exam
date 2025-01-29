@@ -1,7 +1,5 @@
 package chess;
 
-//import java.util.ArrayList;
-import java.util.ArrayList;
 import java.util.Collection;
 
 public class Calc {
@@ -17,7 +15,7 @@ public class Calc {
         } else if (type == ChessPiece.PieceType.KNIGHT){
             throw new RuntimeException("Not impolememnted");
         } else if (type == ChessPiece.PieceType.QUEEN){
-            throw new RuntimeException("Not impolememnted");
+            return QueenCalc.run(board, pos);
         } else if (type == ChessPiece.PieceType.PAWN){
             throw new RuntimeException("Not impolememnted");
         } else if (type == ChessPiece.PieceType.KING){
