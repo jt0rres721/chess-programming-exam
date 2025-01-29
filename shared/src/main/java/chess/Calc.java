@@ -13,7 +13,7 @@ public class Calc {
         if (type == ChessPiece.PieceType.BISHOP){
             return BishopCalc.run(board, pos);
         } else if (type == ChessPiece.PieceType.ROOK){
-            throw new RuntimeException("Not impolememnted");
+            return RookCalc.run(board, pos);
         } else if (type == ChessPiece.PieceType.KNIGHT){
             throw new RuntimeException("Not impolememnted");
         } else if (type == ChessPiece.PieceType.QUEEN){
