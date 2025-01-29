@@ -20,6 +20,12 @@ public class BishopCalc {
             if (board.getPiece(next) == null){
                 ChessMove newMove = new ChessMove(pos, next, null);
                 moves.add(newMove);
+            } else if (board.getPiece(next).getTeamColor() != color){
+                ChessMove newMove = new ChessMove(pos, next, null);
+                moves.add(newMove);
+                break;
+            } else {
+                break;
             }
 
         }
@@ -34,6 +40,12 @@ public class BishopCalc {
             if (board.getPiece(next) == null){
                 ChessMove newMove = new ChessMove(pos, next, null);
                 moves.add(newMove);
+            } else if (board.getPiece(next).getTeamColor() != color){
+                ChessMove newMove = new ChessMove(pos, next, null);
+                moves.add(newMove);
+                break;
+            } else {
+                break;
             }
 
         }
@@ -49,6 +61,12 @@ public class BishopCalc {
             if (board.getPiece(next) == null){
                 ChessMove newMove = new ChessMove(pos, next, null);
                 moves.add(newMove);
+            } else if (board.getPiece(next).getTeamColor() != color){
+                ChessMove newMove = new ChessMove(pos, next, null);
+                moves.add(newMove);
+                break;
+            } else {
+                break;
             }
 
         }
@@ -64,6 +82,12 @@ public class BishopCalc {
             if (board.getPiece(next) == null){
                 ChessMove newMove = new ChessMove(pos, next, null);
                 moves.add(newMove);
+            } else if (board.getPiece(next).getTeamColor() != color){
+                ChessMove newMove = new ChessMove(pos, next, null);
+                moves.add(newMove);
+                break;
+            } else {
+                break;
             }
 
         }
